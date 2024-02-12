@@ -26,4 +26,16 @@ class Calculadora {
  public int suma() {
      return numero1 + numero2;
  }
+ 
+//Método resta
+ public int resta() {
+     return numero1 - numero2;
+ }
+ 
+//Método multiplicación
+ public int multiplicacion() {
+     return numero1 * numero2;
+ }
+ 
 }
+

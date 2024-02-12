@@ -9,9 +9,13 @@ public class pruebaCalculadora {
      // Realizar operaciones
      int resultadoSuma = calculadora.realizarOperacion("suma");
      int resultadoResta = calculadora.realizarOperacion("resta");
+     int resultadoMultiplicacion = calculadora.realizarOperacion("multiplicacion");
 
      // Mostrar resultados
      System.out.println("Resultado de la suma: " + resultadoSuma);
      System.out.println("Resultado de la resta: " + resultadoResta);
+     System.out.println("Resultado de la multiplicación: " + resultadoMultiplicacion);
  }
+
 }
+
