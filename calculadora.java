@@ -16,6 +16,8 @@ class Calculadora {
      switch (operacion) {
          case "suma":
              return suma();
+         case "resta":
+             return resta();
          default:
              System.out.println("Operación no válida");
              return 0;
