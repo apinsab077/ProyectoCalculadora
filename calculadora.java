@@ -18,6 +18,8 @@ class Calculadora {
              return suma();
          case "resta":
              return resta();
+         case "multiplicacion":
+             return multiplicacion();
          default:
              System.out.println("Operación no válida");
              return 0;
