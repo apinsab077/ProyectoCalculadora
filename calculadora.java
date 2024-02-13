@@ -16,6 +16,8 @@ class Calculadora {
      switch (operacion) {
          case "suma":
              return suma();
+         case "resta":
+             return resta();
          default:
              System.out.println("Operación no válida");
              return 0;
@@ -32,10 +34,11 @@ class Calculadora {
      return numero1 - numero2;
  }
  
+
 //Método multiplicación
  public int multiplicacion() {
      return numero1 * numero2;
  }
- 
+
 }
 
