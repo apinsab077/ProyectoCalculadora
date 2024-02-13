@@ -18,6 +18,10 @@ class Calculadora {
              return suma();
          case "resta":
              return resta();
+         case "multiplicacion":
+             return multiplicacion();
+         case "division":
+             return division();
          default:
              System.out.println("Operación no válida");
              return 0;
@@ -33,12 +37,17 @@ class Calculadora {
  public int resta() {
      return numero1 - numero2;
  }
- 
-
-//Método multiplicación
+ //Método multiplicación
  public int multiplicacion() {
      return numero1 * numero2;
  }
-
+// Método división
+ public double division() {
+     if (numero2 == 0) {
+         System.out.println("No se puede dividir por cero");
+         return 0;
+     }
+     return (double) numero1 / numero2;
+ }
 }
 
