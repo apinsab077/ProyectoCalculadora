@@ -34,4 +34,11 @@ class Calculadora {
      return numero1 - numero2;
  }
  
+
+//Método multiplicación
+ public int multiplicacion() {
+     return numero1 * numero2;
+ }
+
 }
+
