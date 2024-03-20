@@ -22,6 +22,8 @@ class Calculadora {
              return multiplicacion();
          case "division":
              return division();
+         case "modulo":
+             return modulo();
          default:
              System.out.println("Operación no válida");
              return 0;
@@ -52,5 +54,14 @@ class Calculadora {
      }
      return (double) numero1 / numero2;
  }
+
+// Método modulo
+ public double modulo() {
+    if (numero2 == 0) {
+        System.out.println("No se puede dividir por cero");
+        return 0;
+    }
+    return (double) numero1 % numero2;
+}
 }
 
