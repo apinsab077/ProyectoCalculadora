@@ -1,4 +1,3 @@
-package calculadora;
 
 //Clase Calculadora
 class Calculadora {
@@ -21,9 +20,9 @@ class Calculadora {
          case "multiplicacion":
              return multiplicacion();
          case "division":
-             return division();
+             return (int) division();
          case "modulo":
-             return modulo();
+             return (int) modulo();
          default:
              System.out.println("Operación no válida");
              return 0;
